@@ -1,0 +1,10 @@
+{
+  "include": ["src/*", "src/__tests__/App.test.js"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es6",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  }
+}

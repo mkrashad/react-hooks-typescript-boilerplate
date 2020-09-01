@@ -1,11 +1,8 @@
 import * as React from 'react';
 
-const App: React.FC = () => {
-  return (
-    <div>
-      <h1>React Boilerplate</h1>
-    </div>
-  );
-};
-
+const App: React.FC = () => (
+  <>
+    <h1>Learn React</h1>
+  </>
+);
 export default App;

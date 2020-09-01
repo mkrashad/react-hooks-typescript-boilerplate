@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "airbnb-typescript",
+    "airbnb-typescript/base",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "plugins": ["prettier", "jest", "@typescript-eslint"],
+
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "@typescript-eslint/rule-name": "off",
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ]
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "browser": true,
+    "jest/globals": true
+  }
+}

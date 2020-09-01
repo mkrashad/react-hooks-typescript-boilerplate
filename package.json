@@ -1,0 +1,25 @@
+{
+  "name": "react-advance-boilerplate",
+  "version": "1.0.0",
+  "description": "React Advance Boilerplate using react-hooks, typescript, parceljs, jest and airbnb linting",
+  "main": "index.js",
+  "author": "Rashad Mahmudov",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "test": "jest",
+    "testwatch": "jest --watchAll",
+    "build": "parcel build public/index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.2"
+  }
+}
